@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(img/bg-city.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Lato;
+}
+
+nav{
+	position: relative;
+	width: 1000px;
+	height: 60px;
+	top: 80px;
+	left: 180px;
+	background-color: #fff;
+}
+
+nav p {
+	float: left;
+	line-height: 60px;
+	padding: 0px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+nav ul {
+	float: left;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 60px;
+	padding: 0px 15px;
+	position: relative;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	color: #030303;
+}
+
+nav ul li a:hover {
+	background-color: coral;
+}
+
+/* Styling the DropDown*/
+
+nav ul li ul {
+	position: absolute;
+	display: none;
+	background-color: #fff;
+	border-radius: 0px 0px 15px 15px;
+}
+
+nav ul li ul li {
+	width: 200px;
+	float: left;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav ul li ul li a {
+	padding: 2px 10px;
+}
+
+nav ul li ul li a:hover {
+	background-color: coral;
+}
+
+/*End of Styling the DropDown*/
